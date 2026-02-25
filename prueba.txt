@@ -16,8 +16,8 @@
     <section id="servicios">
       <h2>Servicios</h2>
       <ul>
-        <li>Diseño Web
-        <li>Automatización
+        <li>Diseño Web</li>
+        <li>Automatización</li>
         <li>Soporte</li>
       </ul>
     </section>
