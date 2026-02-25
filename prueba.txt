@@ -1,1 +1,37 @@
-//Com
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Bienvenidos a la Landing
+    <p>Esta página tiene errores intencionales para practicar</p>
+    <a href="#contacto" class="btn">Contáctanos</a>
+  </header>
+
+  <main>
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Diseño Web
+        <li>Automatización
+        <li>Soporte</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label>Correo</label>
+        <input type="email" id="email">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
