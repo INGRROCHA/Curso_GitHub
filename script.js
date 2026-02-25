@@ -1,2 +1,15 @@
-let Hola = "Hola Mundo";
-console.log("Proyecto activo");
+function seleccionarDoto() {
+	var texto = document.getElementById("texto");
+	texto.select();
+}
+
+function seleccionarTodo() {
+	var texto = document.getElementById("texto");
+	texto.select();
+}
+
+function borrarTodo() {
+	var texto = document.getElementById("texto");
+	texto.value = "";
+}
+
